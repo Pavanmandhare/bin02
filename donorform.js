@@ -60,6 +60,7 @@ document.getElementById("donorForm").addEventListener("submit", function (event)
         birth_date: this.birth_date.value,
         gender: this.gender.value,
         blood_group: this.blood_group.value,
+        last_blood_donation: this.last_blood_donation
     };
     fetch("https://script.google.com/macros/s/AKfycbw2BxaEb12aU0eDbFQdcdByMsCayZfLf-qVTDNMHe_9EMnQr0SyygUNGsgYdqtQmIKq/exec", {
         method: "POST",

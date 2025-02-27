@@ -11,6 +11,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Uses the default text color */
+}
+
 .nav-container {
   top: 0px;
   position: fixed;
